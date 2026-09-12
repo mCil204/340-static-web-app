@@ -114,8 +114,8 @@ footer {
 .specialty-filters button:first-child,
 .specialty-filters button:hover {
   color: white;
-  background: #718203;
-  border-color: #7cae18;
+  background: #b0b3a3;
+  border-color: #3f413d;
 }
 
 .character-search {
@@ -163,13 +163,9 @@ footer {
 
 .search-controls button {
   color: white;
-  background: #1f0a7d;
-  border-color: #0a0f64;
+  background: #333;
+  border-color: #9293a3;
   cursor: pointer;
-}
-
-.search-controls button:hover {
-  background: #12086f;
 }
 
 .top-bar {
@@ -191,10 +187,6 @@ footer {
   font-weight: bold;
   text-decoration: none;
   transition: color 0.2s, border-color 0.2s;
-}
-
-.navigation a:hover {
-  color: #1626e0;
 }
 
 .character-page {
@@ -235,7 +227,7 @@ footer {
 
 .about-text h1 {
   margin-top: 0;
-  color: blue;
+  color: white;
 }
 
 .about-text p {
@@ -253,4 +245,72 @@ footer {
   height: 280px;
   object-fit: cover;
   border-radius: 10px;
+}
+
+.character-form-page {
+  max-width: 650px;
+  margin: 50px auto;
+  padding: 30px;
+  color: white;
+  background: #171722;
+  border: 1px solid #3b3b50;
+  border-radius: 14px;
+}
+
+.character-form-page h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  color: white;
+}
+
+.character-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.character-form label {
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.character-form input,
+.character-form select,
+.character-form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  color: white;
+  background: #252536;
+  border: 1px solid #55556d;
+  border-radius: 6px;
+  font: inherit;
+}
+
+.character-form textarea {
+  resize: vertical;
+}
+
+.character-form input:focus,
+.character-form select:focus,
+.character-form textarea:focus {
+  outline: 2px solid blue;
+  border-color: white;
+}
+
+.character-form button {
+  margin-top: 20px;
+  padding: 12px;
+  color: white;
+  background: #55556d;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.character-form button:hover {
+  background: blue;
 }

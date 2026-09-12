@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>Add Character</title>
 </head>
+
 <body>
-        <header class="top-bar">
+    <header class="top-bar">
         <nav class="navigation">
             <a href="index.html">Home</a>
             <a href="details.html">Details</a>
@@ -16,10 +18,52 @@
         </nav>
     </header>
 
+    <main class="character-form-page">
+        <h1>Make a Character</h1>
 
-        <footer>
+        <form class="character-form">
+
+            <label for="character-name">Character Name</label>
+            <input type="text" id="character-name" name="character-name" placeholder="Enter character name">
+
+            <label for="attribute">Specialty / Attribute</label>
+            <select id="attribute" name="attribute">
+                <option value="">Choose an attribute</option>
+                <option value="tremor">Tremor</option>
+                <option value="rupture">Rupture</option>
+                <option value="bleed">Bleed</option>
+                <option value="burn">Burn</option>
+                <option value="poise">Poise</option>
+                <option value="charge">Charge</option>
+                <option value="heartbreak">heartbreak</option>
+            </select>
+
+            <label for="faction">Faction</label>
+            <select id="faction" name="faction">
+                <option value="">Choose a faction</option>
+                <option value="faction-N">N. Corp</option>
+                <option value="faction-lcb">LCB</option>
+                <option value="faction-middle">The Middle</option>
+                <option value="faction-liu">Liu Association</option>
+                <option value="faction-molar">Molar Boatworks</option>
+            </select>
+
+            <label for="image-url">Image URL</label>
+            <input type="url" id="image-url" name="image-url" placeholder="https://example.com/image.png">
+
+            <label for="description">Short Description</label>
+            <textarea id="description" name="description" rows="5"
+                placeholder="Write a short description..."></textarea>
+
+            <button type="submit">Create Character</button>
+        </form>
+    </main>
+
+
+    <footer>
         <p>&copy; 2026 Character Gallery for Educational Purposes</p>
     </footer>
-    
+
 </body>
+
 </html>
