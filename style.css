@@ -215,3 +215,42 @@ footer {
   border-radius: 8px;
   box-shadow: 0 2px 6px black;
 }
+
+.about-page {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  max-width: 850px;
+  margin: 70px auto;
+  padding: 30px;
+  color: white;
+  background: #171722;
+  border: 1px solid #3b3b50;
+  border-radius: 14px;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about-text h1 {
+  margin-top: 0;
+  color: blue;
+}
+
+.about-text p {
+  color: #d4d4dc;
+  line-height: 1.7;
+}
+
+.about-image {
+  flex: 0 0 180px;
+}
+
+.about-image img {
+  display: block;
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 10px;
+}
