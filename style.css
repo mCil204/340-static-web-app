@@ -196,3 +196,22 @@ footer {
 .navigation a:hover {
   color: #1626e0;
 }
+
+.character-page {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+.character-image-container {
+  display: flex;
+  justify-content: left;
+  margin-bottom: 20px;
+}
+
+.large-character-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px black;
+}
